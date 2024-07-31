@@ -1,20 +1,36 @@
-# Introduction 
-TODO: Give a short introduction of your project. Let this section explain the objectives or the motivation behind this project. 
+# Welcome to the Linux and Server Setup Wiki
 
-# Getting Started
-TODO: Guide users through getting your code up and running on their own system. In this section you can talk about:
-1.	Installation process
-2.	Software dependencies
-3.	Latest releases
-4.	API references
+## Server Setup Guides
 
-# Build and Test
-TODO: Describe and show how to build your code and run the tests. 
+1. **Secure Email Server Setup**
+   - [Setting up a Secure Email Server with Postfix, Dovecot, and Roundcube Webmail on Ubuntu 20.04](email-server-with-postfix-dovecot-roundcube.md)
 
-# Contribute
-TODO: Explain how other users and developers can contribute to make your code better. 
+2. **Database Server Setup**
+   - [Setting up a Database Server with MySQL and phpMyAdmin on Ubuntu 20.04](mysql-server-wiki.md)
 
-If you want to learn more about creating good readme files then refer the following [guidelines](https://docs.microsoft.com/en-us/azure/devops/repos/git/create-a-readme?view=azure-devops). You can also seek inspiration from the below readme files:
-- [ASP.NET Core](https://github.com/aspnet/Home)
-- [Visual Studio Code](https://github.com/Microsoft/vscode)
-- [Chakra Core](https://github.com/Microsoft/ChakraCore)
+3. **DNS Server Setup**
+   - [Setting up a DNS Server with BIND9 on Ubuntu 20.04](dns-server-with-bind9.md)
+
+## Linux Commands
+
+### Common Commands
+
+1. **Introduction to Linux Commands**
+   - [Common Built-in Linux Commands](linux-builtin-commands-guide.md)
+
+### In-Depth Command Guides
+
+1. **chmod Command**
+   - [In-depth Guide to the chmod Command on Ubuntu 20.04](chmod-command-in-depth.md)
+
+2. **chown Command**
+   - [In-depth Guide to the chown Command on Ubuntu 20.04](chown-command-in-depth.md)
+
+3. **iptables Command**
+   - [In-depth Guide to the iptables Command on Ubuntu 20.04](ip-tables-on-ubuntu-20.04.md)
+
+## Additional Resources
+
+- **Daily SSH Access Report**
+  - [Generating a Daily Cron Formatted Text Report for SSH Access Attempts](ssh-access-reports-script-and-cron.md)
+
