@@ -151,6 +151,24 @@ public class RetryPolicy
 }
 ```
 
+### Special Considerations
+
+#### Avoiding Ambiguity
+
+Choose names that are unambiguous and clearly convey their purpose. Avoid using single-letter names, except for loop counters like `i`, `j`, and `k`. Instead of using vague names like `data` or `info`, be specific about what the variable represents, such as `customerData` or `orderInfo`.
+
+#### Length and Descriptiveness
+
+While names should be descriptive, they shouldn't be excessively long. Strive for a balance between clarity and brevity. For instance, `calculateOrderTotal` is more descriptive than `calcTotal`, but not unnecessarily verbose like `calculateTotalOfAllOrdersInSystem`.
+
+#### Prefixes and Suffixes
+
+Using prefixes and suffixes can add context to names, especially for distinguishing between different types of entities. For example, `is` or `has` for boolean variables (`isAvailable`, `hasPermission`), `min` or `max` for range values (`minLength`, `maxHeight`), and `list` or `array` for collections (`customerList`, `orderArray`).
+
+Naming conventions are the foundation of readable and maintainable code. Consistent naming makes it easier for everyone on the team to understand and navigate the codebase. In C#, we use PascalCase and camelCase naming conventions to distinguish between different types of identifiers.
+
+PascalCase capitalizes the first letter of each word and is used for naming classes, methods, and properties. For example, `Customer`, `CalculateTotal`, and `OrderDate` are all written in PascalCase. On the other hand, camelCase starts with a lowercase letter and capitalizes the first letter of each subsequent word. This convention is used for local variables, parameters, and private fields. Examples include `customerName`, `orderId`, and `_logger`.
+
 ### Case Styles
 
 Understanding different case styles is essential for writing clear and maintainable code. Each style has its history and typical use cases in various programming languages. Here's a detailed look at the most common case styles, their origins, and their applications.
@@ -337,26 +355,6 @@ Here's a table to illustrate various naming conventions:
 | Constant | PascalCase | `MaxRetryCount`, `DefaultTimeout` |
 | Private Field | _camelCase | `_logger`, `_currentRetryCount` |
 | Parameter | camelCase | `customerName`, `orderId` |
-
----
-
-### Special Considerations
-
-#### Avoiding Ambiguity
-
-Choose names that are unambiguous and clearly convey their purpose. Avoid using single-letter names, except for loop counters like `i`, `j`, and `k`. Instead of using vague names like `data` or `info`, be specific about what the variable represents, such as `customerData` or `orderInfo`.
-
-#### Length and Descriptiveness
-
-While names should be descriptive, they shouldn't be excessively long. Strive for a balance between clarity and brevity. For instance, `calculateOrderTotal` is more descriptive than `calcTotal`, but not unnecessarily verbose like `calculateTotalOfAllOrdersInSystem`.
-
-#### Prefixes and Suffixes
-
-Using prefixes and suffixes can add context to names, especially for distinguishing between different types of entities. For example, `is` or `has` for boolean variables (`isAvailable`, `hasPermission`), `min` or `max` for range values (`minLength`, `maxHeight`), and `list` or `array` for collections (`customerList`, `orderArray`).
-
-Naming conventions are the foundation of readable and maintainable code. Consistent naming makes it easier for everyone on the team to understand and navigate the codebase. In C#, we use PascalCase and camelCase naming conventions to distinguish between different types of identifiers.
-
-PascalCase capitalizes the first letter of each word and is used for naming classes, methods, and properties. For example, `Customer`, `CalculateTotal`, and `OrderDate` are all written in PascalCase. On the other hand, camelCase starts with a lowercase letter and capitalizes the first letter of each subsequent word. This convention is used for local variables, parameters, and private fields. Examples include `customerName`, `orderId`, and `_logger`.
 
 ### Tips for Consistent Naming Conventions
 
