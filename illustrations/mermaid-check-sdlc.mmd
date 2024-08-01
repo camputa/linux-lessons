@@ -1,8 +1,3 @@
-Here is a Mermaid diagram to illustrate a multi-website Apache2 web server setup in three SDLC environments (DEV, QA, and Production), with deployment gates and checkpoints between the environments:
-
-### Mermaid Diagram for Multi-Website Apache2 Web Server with SDLC Environments
-
-```mermaid
 graph TB
   subgraph Development
     dev[DEV Environment]
@@ -50,14 +45,3 @@ graph TB
   qa -->|Deployment| checkpoint1
   checkpoint1 -->|Passed| checkpoint2
   checkpoint2 -->|Approved| prod
-```
-
-### Description of the Diagram:
-
-- **Development Environment**: Contains three websites (Site 1, Site 2, Site 3) in the DEV environment.
-- **Deployment Gate**: A checkpoint for code review and testing before moving to QA.
-- **QA Environment**: Contains three websites (Site 1, Site 2, Site 3) in the QA environment.
-- **Deployment Checkpoint**: Consists of automated and manual tests before moving to production.
-- **Production Environment**: Contains three websites (Site 1, Site 2, Site 3) in the Production environment.
-
-This diagram represents the flow of the development process from DEV to QA to Production, including the necessary gates and checkpoints to ensure quality and approval at each stage.
