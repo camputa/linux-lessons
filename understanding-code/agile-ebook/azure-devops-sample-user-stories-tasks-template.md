@@ -1,8 +1,6 @@
-Absolutely! Here is a more comprehensive version including additional user stories and tasks, with the updated Mermaid diagram.
+# Government Portal - Azure Work Item Journey
 
-### Epic: Government Portal - Online Tax Filing Feature
-
-#### Epic Template
+## Epic: Online Tax Filing Feature
 
 **Title:** Online Tax Filing Feature
 
@@ -25,9 +23,7 @@ Improves the efficiency of tax submissions and reduces paperwork.
 
 ---
 
-### User Story: Register and Log In
-
-#### User Story Template
+## User Story: Register and Log In
 
 **Title:** Register and Log In
 
@@ -52,8 +48,6 @@ Improves the efficiency of tax submissions and reduces paperwork.
 
 ### Task: Design Registration Form
 
-#### Task Template
-
 **Title:** Design Registration Form
 
 **Description:**
@@ -74,8 +68,6 @@ Create a design for the registration form that includes fields for the user's na
 
 ### Task: Implement Registration Backend
 
-#### Task Template
-
 **Title:** Implement Registration Backend
 
 **Description:**
@@ -94,8 +86,6 @@ Develop the backend functionality to handle user registration, including saving 
 ---
 
 ### Task: Send Verification Email
-
-#### Task Template
 
 **Title:** Send Verification Email
 
@@ -116,8 +106,6 @@ Implement the functionality to send a verification email to users after they com
 
 ### Task: Implement Login Functionality
 
-#### Task Template
-
 **Title:** Implement Login Functionality
 
 **Description:**
@@ -136,8 +124,6 @@ Develop the functionality to allow users to log in to the portal using their ema
 ---
 
 ### Bug: Verification Email Not Sent
-
-#### Bug Template
 
 **Title:** Verification Email Not Sent
 
@@ -163,9 +149,7 @@ No verification email is sent.
 
 ---
 
-### User Story: Fill Out Tax Forms
-
-#### User Story Template
+## User Story: Fill Out Tax Forms
 
 **Title:** Fill Out Tax Forms
 
@@ -188,9 +172,7 @@ No verification email is sent.
 
 ---
 
-### User Story: Upload Supporting Documents
-
-#### User Story Template
+## User Story: Upload Supporting Documents
 
 **Title:** Upload Supporting Documents
 
@@ -212,9 +194,7 @@ No verification email is sent.
 
 ---
 
-### User Story: Submit Tax Forms
-
-#### User Story Template
+## User Story: Submit Tax Forms
 
 **Title:** Submit Tax Forms
 
@@ -236,9 +216,7 @@ No verification email is sent.
 
 ---
 
-### Issue: Database Connection Timeout
-
-#### Issue Template
+## Issue: Database Connection Timeout
 
 **Title:** Database Connection Timeout
 
@@ -264,12 +242,12 @@ The database server is unable to handle the increased load during peak hours due
 
 ---
 
-### Mermaid Diagram for Use Cases
+## Mermaid Diagram for Use Cases
 
 To visualize the relationships between the Epic, User Stories, Tasks, Bugs, and Issues, here is a sample Mermaid diagram:
 
 ```mermaid
-graph TD
+graph LR
     A[Online Tax Filing Feature] --> B[Register and Log In]
     A --> C[Fill Out Tax Forms]
     A --> D[Upload Supporting Documents]
@@ -299,5 +277,3 @@ graph TD
 ```
 
 This diagram shows the hierarchy and flow of work items, helping your team visualize the project's structure and dependencies.
-
-By using these templates and visualizations, your team can better understand and manage the different types of work items in Azure DevOps, ensuring efficient and organized progress towards completing the project.
