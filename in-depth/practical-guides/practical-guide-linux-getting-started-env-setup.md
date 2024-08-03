@@ -1,11 +1,7 @@
 # Practical Guide: Setting Up Your Dev Environment to Experiment with Linux
-
-## Introduction
-
-**Purpose:**  
+ 
 Hey team! Today, we're diving into the exciting world of setting up a development environment to experiment with Linux. This hands-on guide will walk you through the process of installing essential tools, configuring a virtual environment, and performing basic operations within a Linux VM. This setup will be your playground for mastering Linux skills in a safe, controlled environment.
 
-**Objective:**  
 Our objective is to get you comfortable with setting up a development environment using VirtualBox, Vagrant, and Git SCM. By the end of this guide, you'll have a running Linux VM, know how to interact with it via SSH, and be able to perform basic file operations. This setup will serve as your sandbox for learning and experimentation.
 
 **Key Learning Outcomes:**

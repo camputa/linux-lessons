@@ -1,11 +1,7 @@
 # Practical Guide: Mastering `crontab` for Automated Task Scheduling
 
-## Introduction
-
-**Purpose:**  
 Welcome, team! Today, we're diving into one of the most powerful tools in a Linux administrator's toolkit: `crontab`. Understanding and mastering `crontab` will empower you to automate repetitive tasks, maintain consistent backup schedules, and ensure your servers run smoothly with minimal manual intervention.
 
-**Objective:**  
 Our goal is to make you comfortable and proficient with `crontab`. By the end of this guide, you will know how to schedule tasks, understand the syntax and options of `crontab`, and apply this knowledge to real-world scenarios. Automation is a crucial skill in our field, and mastering it will set you apart as a proactive and efficient developer.
 
 **Key Learning Outcomes:**

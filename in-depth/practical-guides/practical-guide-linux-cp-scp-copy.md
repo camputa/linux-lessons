@@ -1,11 +1,7 @@
 # Practical Guide: Mastering `cp` and `scp` Commands in Linux
 
-## Introduction
-
-**Purpose:**
 Hey Team! Today, we are delving into two essential commands in our Linux toolkit: `cp` and `scp`. These commands are crucial for copying files and directories both locally and remotely. Mastering them will significantly boost your efficiency and flexibility in managing files across different systems.
 
-**Objective:**
 By the end of this guide, you will be adept at using the `cp` command for local file and directory copying and the `scp` command for secure file transfers over the network. You will also learn about various options to customize your copying processes.
 
 **Key Learning Outcomes:**

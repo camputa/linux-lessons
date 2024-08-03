@@ -1,11 +1,7 @@
 # Practical Guide: Mastering UFW (Uncomplicated Firewall) on Linux
 
-## Introduction
-
-**Purpose:**  
 Hey team! Today, we’re going to master UFW (Uncomplicated Firewall), a user-friendly front-end for managing iptables firewall rules on Linux. Firewalls are critical for securing our servers and ensuring only trusted traffic gets through. UFW simplifies this process, making it accessible even for those who aren’t firewall experts.
 
-**Objective:**  
 Our objective is to understand how to use UFW to set up and manage firewall rules on a Linux system. By the end of this guide, you'll know how to enable and disable UFW, allow and deny specific ports and IPs, and check the status of your firewall. This knowledge will empower you to protect our servers more effectively.
 
 **Key Learning Outcomes:**

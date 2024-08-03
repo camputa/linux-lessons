@@ -128,11 +128,6 @@ Using prefixes and suffixes can add context to names, especially for distinguish
 
 Understanding different case styles is essential for writing clear and maintainable code. Each style has its history and typical use cases in various programming languages. Here's a detailed look at the most common case styles, their origins, and their applications.
 
-- **PascalCase**: Each word in the identifier starts with an uppercase letter. Commonly used for class names, method names, and public properties. Example: `CustomerOrder`, `CalculateTotal`.
-- **camelCase**: The first word starts with a lowercase letter, and subsequent words start with an uppercase letter. Often used for variables, function parameters, and private methods. Example: `customerName`, `processOrder`.
-- **snake_case**: Words are separated by underscores, with all letters in lowercase. Frequently used in scripting languages and for file names. Example: `customer_name`, `process_order`.
-- **kebab-case**: Similar to snake_case, but uses hyphens instead of underscores. Typically used for URLs and CSS class names. Example: `customer-name`, `process-order`.
-
 | Case Style | Description | Common Uses | Examples |
 |---|---|---|---|
 | PascalCase | Capitalizes the first letter of each word | Classes, Methods, Public Properties | `CustomerOrder`, `ProcessOrder` |

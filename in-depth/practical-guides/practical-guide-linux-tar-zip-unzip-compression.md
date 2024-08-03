@@ -1,11 +1,7 @@
 # Practical Guide: Mastering `tar`, `zip`, and `unzip` Commands in Linux
 
-## Introduction
-
-**Purpose:**
 Hello, enthusiastic learners! Today, we're diving into the world of file compression and archiving in Linux. Mastering these commands is essential for efficient file management, backup, and distribution in our development environment.
 
-**Objective:**
 By the end of this guide, you'll be proficient in using the `tar`, `zip`, and `unzip` commands. These skills will help you compress, archive, and extract files effectively, making your workflow smoother and more efficient.
 
 **Key Learning Outcomes:**

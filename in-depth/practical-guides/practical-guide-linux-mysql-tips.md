@@ -1,11 +1,7 @@
-### Practical Guide: Mastering MySQL Commands on Linux
+# Practical Guide: Mastering MySQL Commands on Linux
 
-#### Introduction
-
-**Purpose:**
 Hey Team! Today, we're diving into the world of MySQL, a powerful relational database management system that is crucial for our projects. Understanding MySQL commands will empower you to manage databases efficiently and securely. Let’s get ready to enhance our database skills and take control of our data!
 
-**Objective:**
 Our objective is to get comfortable using MySQL commands on Linux, including setting up MySQL to listen on a different port and resetting the root password. By mastering these commands, you'll be equipped to handle database management tasks with confidence and precision.
 
 **Key Learning Outcomes:**
@@ -16,9 +12,9 @@ Our objective is to get comfortable using MySQL commands on Linux, including set
 
 ---
 
-### Let's Get Started!
+## Let's Get Started!
 
-#### 1. Understanding MySQL Commands
+### 1. Understanding MySQL Commands
 
 MySQL commands are used to interact with the MySQL server, allowing you to manage databases, users, and permissions. These commands can be executed from the MySQL shell or directly from the Linux terminal.
 
@@ -33,7 +29,7 @@ MySQL commands are used to interact with the MySQL server, allowing you to manag
 - `FLUSH PRIVILEGES;`: Reload the privileges tables in MySQL.
 - `EXIT;`: Exit the MySQL shell.
 
-#### 2. Installing MySQL on Ubuntu
+### 2. Installing MySQL on Ubuntu
 
 Before we can use MySQL commands, we need to install MySQL on our Ubuntu system.
 
@@ -62,7 +58,7 @@ Before we can use MySQL commands, we need to install MySQL on our Ubuntu system.
     sudo systemctl enable mysql
     ```
 
-#### 3. Configuring MySQL to Listen on a Different Port
+### 3. Configuring MySQL to Listen on a Different Port
 
 By default, MySQL listens on port 3306. However, there may be scenarios where you need to change this port.
 
@@ -93,7 +89,7 @@ By default, MySQL listens on port 3306. However, there may be scenarios where yo
     sudo netstat -tulnp | grep mysql
     ```
 
-#### 4. Resetting the MySQL Root Password
+### 4. Resetting the MySQL Root Password
 
 If you ever forget the root password, you can reset it using the following steps.
 

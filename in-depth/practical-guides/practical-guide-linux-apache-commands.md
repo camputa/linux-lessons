@@ -1,11 +1,7 @@
 # Practical Guide: Mastering Apache Site and Module Management Commands in Linux
 
-## Introduction
-
-**Purpose:**
 Hey Team! Today, we’re diving into the fascinating world of Apache site and module management. As we work on configuring our web servers, understanding these commands will empower us to handle multiple websites and modules efficiently. Mastery of these tools ensures our web services run smoothly, making our deployment process more agile and reliable.
 
-**Objective:**
 By the end of this guide, you'll be proficient in enabling and disabling sites and modules in Apache, as well as managing the Apache server itself. You will understand how to leverage these commands for optimal performance and flexibility in your web server configurations.
 
 **Key Learning Outcomes:**
@@ -132,7 +128,6 @@ By the end of this guide, you'll be proficient in enabling and disabling sites a
 
 ## Practice Tutorial
 
-**Objective:**
 Apply your knowledge through practical tasks.
 
 **Task:**

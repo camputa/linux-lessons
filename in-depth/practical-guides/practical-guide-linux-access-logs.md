@@ -1,11 +1,7 @@
 # Practical Guide: Mastering User Access Logs and Intrusion Detection on Linux
 
-## Introduction
-
-**Purpose:**
 Hey Team! Today, we're going to focus on an essential aspect of maintaining a secure and efficient system: monitoring and analyzing user access logs. Understanding these logs is crucial for system administrators and developers alike to ensure that our systems are secure, functioning properly, and free from unauthorized access.
 
-**Objective:**
 Our objective is to provide you with hands-on experience in displaying, checking, and analyzing user access logs on a Linux system. By the end of this guide, you'll be able to confidently read and interpret log files, identify potential security threats, and employ basic intrusion detection techniques.
 
 **Key Learning Outcomes:**
@@ -21,17 +17,12 @@ Our objective is to provide you with hands-on experience in displaying, checking
 
 ### Introduction to User Access Logs
 
-**Objective:**
-Understand the purpose and significance of user access logs in maintaining system security.
-
-**Overview:**
 User access logs are crucial for tracking user activity on a system. They help in monitoring who accessed the system, when, and what actions were performed. This information is vital for detecting unauthorized access, troubleshooting issues, and ensuring compliance with security policies.
 
 ---
 
 ### Displaying User Access Logs
 
-**Objective:**
 Learn how to display user access logs using various Linux commands.
 
 **Steps:**
@@ -75,7 +66,6 @@ Learn how to display user access logs using various Linux commands.
 
 ### Analyzing Log Files
 
-**Objective:**
 Gain proficiency in analyzing log files to identify potential security threats and system issues.
 
 **Steps:**
@@ -112,7 +102,6 @@ Gain proficiency in analyzing log files to identify potential security threats a
 
 ### Intrusion Detection Techniques
 
-**Objective:**
 Learn basic intrusion detection techniques to identify and respond to potential security threats.
 
 **Steps:**
@@ -159,7 +148,6 @@ Learn basic intrusion detection techniques to identify and respond to potential 
 
 ## Practical Tutorial
 
-**Objective:**
 Apply the knowledge gained to perform practical tasks using log analysis commands.
 
 **Task:**

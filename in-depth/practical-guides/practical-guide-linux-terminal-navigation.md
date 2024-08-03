@@ -1,11 +1,7 @@
 # Practical Guide: Mastering Linux Command Line Navigation
 
-## Introduction
-
-**Purpose:**
 Hey Team! Today, we're diving deep into the command line—the heart and soul of Linux. Mastering these commands will empower you to navigate, manage, and explore your Linux environment like a pro. Whether you're setting up a new development environment or troubleshooting an issue, these skills are indispensable.
 
-**Objective:**
 By the end of this guide, you'll be comfortable using a variety of essential Linux commands. You'll learn to navigate the file system, manage files and directories, and use powerful tools to manipulate and search through data.
 
 **Key Learning Outcomes:**

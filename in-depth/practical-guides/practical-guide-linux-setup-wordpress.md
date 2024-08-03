@@ -1,11 +1,7 @@
 # Practical Guide: Setting Up WordPress Using Curl and Other Linux Commands
 
-## Introduction
-
-**Purpose:**
 Hey Team! Today, we're diving into a hands-on project to set up a WordPress website using various Linux commands, including `curl`, `unzip`, and others. This exercise is designed to empower you with the skills needed to manage and configure web applications on Linux. Let's roll up our sleeves and get ready to build something awesome!
 
-**Objective:**
 Our objective is to successfully download and set up a WordPress website. By the end of this guide, you will have a live WordPress site running on your local development environment, understand the process of configuring Apache, and manage MySQL databases and users.
 
 **Key Learning Outcomes:**

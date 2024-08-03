@@ -1,11 +1,7 @@
 # Practical Guide: Mastering the `rsync` Command in Linux
 
-## Introduction
-
-**Purpose:**
 Hello Team! Today, we're going to dive into the powerful `rsync` command. This tool is an indispensable asset for efficiently transferring and synchronizing files and directories across systems. With `rsync`, you'll be able to handle large data transfers with ease, making sure your files are always up-to-date and backed up securely.
 
-**Objective:**
 By the end of this guide, you'll be proficient in using `rsync` to sync files and directories between local and remote systems. You will understand how to leverage its options for optimal performance and reliability, making your workflow more efficient.
 
 **Key Learning Outcomes:**

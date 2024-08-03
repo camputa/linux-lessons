@@ -1,11 +1,7 @@
 # Practical Guide: Mastering Vim on Linux
 
-## Introduction
-
-**Purpose:**
 Hey Team! Today, we're diving into one of the most powerful and versatile text editors in the Linux world: Vim. Whether you're editing configuration files, writing scripts, or coding, mastering Vim will significantly enhance your productivity and efficiency.
 
-**Objective:**
 Our goal is to provide you with hands-on experience using the Vim text editor. By the end of this guide, you'll be comfortable navigating Vim, performing basic and advanced editing tasks, and using Vim's powerful features to streamline your workflow.
 
 **Key Learning Outcomes:**

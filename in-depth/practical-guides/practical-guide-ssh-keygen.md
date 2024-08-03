@@ -1,11 +1,7 @@
 # Practical Guide: Mastering SSH Key Generation with ssh-keygen
 
-## Introduction
-
-**Purpose:**
 Hey Team! Welcome to another exciting hands-on tutorial. Today, we're going to explore `ssh-keygen`, a critical command for secure communication in Linux. Understanding `ssh-keygen` is essential for anyone involved in system administration or development. This command will help you create secure SSH keys, which are fundamental for secure access to remote servers.
 
-**Objective:**
 By the end of this guide, you will be able to generate SSH keys, understand the purpose of each key file, and use them to establish secure connections. This skill is not only crucial for maintaining secure systems but also a common requirement in many professional environments.
 
 **Key Learning Outcomes:**

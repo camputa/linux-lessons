@@ -1,13 +1,14 @@
-# Government Portal - Azure Work Item Journey
+# Hands-On: Sample Azure DevOps Work Items - Government Portal
 
 ## Epic: Online Tax Filing Feature
 
-**Title:** Online Tax Filing Feature
+**Title:** Online Tax Filing Features
 
 **Description:**
 Develop an online tax filing feature that allows citizens to submit their tax returns electronically through the government portal. This feature should include user authentication, form filling, document upload, and submission functionalities.
 
 **Acceptance Criteria:**
+
 1. Users should be able to register and log in.
 2. The system should allow users to fill out tax forms electronically.
 3. Users should be able to upload supporting documents.
@@ -19,6 +20,7 @@ Improves the efficiency of tax submissions and reduces paperwork.
 **Estimated Effort:** 100 Story Points
 
 **Related Work Items:**
+
 - User Stories: Register and Log In, Fill Out Tax Forms, Upload Supporting Documents, Submit Tax Forms
 
 ---
@@ -32,6 +34,7 @@ Improves the efficiency of tax submissions and reduces paperwork.
 **So that** I can access the online tax filing feature.
 
 **Acceptance Criteria:**
+
 1. The registration form must collect the user's name, email, and password.
 2. The system must send a verification email upon successful registration.
 3. Users must be able to log in using their email and password.
@@ -39,12 +42,11 @@ Improves the efficiency of tax submissions and reduces paperwork.
 **Story Points:** 8
 
 **Tasks:**
+
 - Design Registration Form
 - Implement Registration Backend
 - Send Verification Email
 - Implement Login Functionality
-
----
 
 ### Task: Design Registration Form
 
@@ -54,6 +56,7 @@ Improves the efficiency of tax submissions and reduces paperwork.
 Create a design for the registration form that includes fields for the user's name, email, and password. Ensure the design is responsive and user-friendly.
 
 **Acceptance Criteria:**
+
 1. The registration form should have fields for name, email, and password.
 2. The design should be responsive and work on mobile and desktop devices.
 3. The submit button should be clearly visible and styled according to the portal theme.
@@ -74,6 +77,7 @@ Create a design for the registration form that includes fields for the user's na
 Develop the backend functionality to handle user registration, including saving user details to the database and sending verification emails.
 
 **Acceptance Criteria:**
+
 1. User details should be stored securely in the database.
 2. A verification email should be sent upon successful registration.
 
@@ -83,8 +87,6 @@ Develop the backend functionality to handle user registration, including saving 
 
 **Effort:** 8 hours
 
----
-
 ### Task: Send Verification Email
 
 **Title:** Send Verification Email
@@ -93,6 +95,7 @@ Develop the backend functionality to handle user registration, including saving 
 Implement the functionality to send a verification email to users after they complete the registration process.
 
 **Acceptance Criteria:**
+
 1. Users should receive a verification email upon successful registration.
 2. The email should contain a verification link to activate the user account.
 
@@ -102,8 +105,6 @@ Implement the functionality to send a verification email to users after they com
 
 **Effort:** 4 hours
 
----
-
 ### Task: Implement Login Functionality
 
 **Title:** Implement Login Functionality
@@ -112,6 +113,7 @@ Implement the functionality to send a verification email to users after they com
 Develop the functionality to allow users to log in to the portal using their email and password.
 
 **Acceptance Criteria:**
+
 1. Users should be able to log in using their email and password.
 2. The system should verify the user's credentials and grant access to the portal.
 
@@ -121,8 +123,6 @@ Develop the functionality to allow users to log in to the portal using their ema
 
 **Effort:** 6 hours
 
----
-
 ### Bug: Verification Email Not Sent
 
 **Title:** Verification Email Not Sent
@@ -131,6 +131,7 @@ Develop the functionality to allow users to log in to the portal using their ema
 The verification email is not being sent after a user registers on the portal.
 
 **Steps to Reproduce:**
+
 1. Open the registration page.
 2. Fill in the registration form with valid details.
 3. Submit the form.

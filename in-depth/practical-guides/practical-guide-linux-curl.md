@@ -1,11 +1,7 @@
 # Practical Guide: Mastering the `curl` Command on Linux
 
-## Introduction
-
-**Purpose:**
 Hey Team! Today, we’re going to dive into the world of `curl`, a powerful command-line tool used for transferring data with URLs. Whether you're downloading files, testing APIs, or interacting with web services, `curl` is an essential tool in our developer toolkit. Let's make sure you become comfortable and proficient with this versatile command.
 
-**Objective:**
 Our objective is to provide you with a hands-on experience using the `curl` command. By the end of this guide, you'll be able to confidently use `curl` to download files, interact with APIs, and perform various other tasks. 
 
 **Key Learning Outcomes:**

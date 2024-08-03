@@ -1,4 +1,4 @@
-# Comprehensive Guide to Common Built-In Linux Commands on Ubuntu 20.04
+# Guide to Common Built-In Linux Commands
 
 Welcome to the world of Linux! If you're new to Linux or just looking to deepen your understanding, this guide is here to help you navigate some of the most common built-in commands. We'll explore their options and configurations, providing you with the knowledge and confidence to use these powerful tools effectively. Let’s dive in and make your Linux journey enjoyable and enriching!
 
