@@ -1,115 +1,102 @@
 # Coding Standards and Naming Conventions
 
-Coding standards are a set of guidelines and best practices that help developers write code in a consistent manner. These standards cover various aspects of coding, including naming conventions, formatting, and documentation. Adhering to coding standards is crucial for improving code quality, facilitating collaboration, and reducing the likelihood of errors.
-
-## Consistency and Readability
-
-Consistency in code style is crucial for maintaining readability and ease of maintenance. Our coding standards are designed to promote these principles across all our projects.
-
-- **Indentation**: Use tabs for indentation. This ensures that your code is uniformly indented, making it easier to read and maintain.
-- **Comments**: Write meaningful comments that explain the "why" behind complex logic. Use `//` for single-line comments and `/* */` for multi-line comments. Avoid redundant comments that merely restate the code.
+Coding standards are a set of guidelines and best practices that help developers write code in a consistent manner. These standards cover various aspects of coding, including naming conventions, formatting, and documentation.
 
 ## Formatting Guidelines
 
 Proper formatting improves code readability and maintainability. Here are some key formatting guidelines:
 
-**Indentation:**
-Use tabs for indentation. This ensures that your code is uniformly indented, making it easier to read and maintain.
+- **Indentation:** Use tabs for indentation. This ensures that your code is uniformly indented, making it easier to read and maintain.
 
-```csharp
-public void ProcessData() {
-    if (data == null) {
-        throw new ArgumentNullException(nameof(data));
-    }
-    // Process data
-}
-```
+	```csharp
+	public void ProcessData() {
+	    if (data == null) {
+	        throw new ArgumentNullException(nameof(data));
+	    }
+	    // Process data
+	}
+	```
 
-**Braces:**
-Place opening braces on a new line, and closing braces on a new line to match the opening statement.
+- **Braces:** Place opening braces on a new line, and closing braces on a new line to match the opening statement.
 
-```csharp
-public class Program
-{
-    public static void Main(string[] args)
-    {
-        Console.WriteLine("Hello, World!");
-    }
-}
-```
+	```csharp
+	public class Program
+	{
+	    public static void Main(string[] args)
+	    {
+	        Console.WriteLine("Hello, World!");
+	    }
+	}
+	```
 
-**Spacing:**
-Use a single space before and after operators, and after commas.
+- **Spacing:** Use a single space before and after operators, and after commas.
 
-```csharp
-int sum = a + b;
-Console.WriteLine("Sum: " + sum);
-```
+	```csharp
+	int sum = a + b;
+	Console.WriteLine("Sum: " + sum);
+	```
 
 ## Structure and Organization
 
 Organizing your code effectively is crucial for maintainability. Here are some tips:
 
-**Namespace Organization:**
-Organize your classes into namespaces to group related functionalities.
+- **Namespace Organization:** Organize your classes into namespaces to group related functionalities.
 
-```csharp
-namespace Company.Project.Module {
-    public class Employee {
-        // Class logic
-    }
-}
-```
+	```csharp
+	namespace Company.Project.Module {
+	    public class Employee {
+	        // Class logic
+	    }
+	}
+	```
 
-**Class Structure:**
-Structure your classes logically, starting with fields, followed by properties, constructors, methods, and event handlers.
+- **Class Structure:** Structure your classes logically, starting with fields, followed by properties, constructors, methods, and event handlers.
 
-```csharp
-public class Employee {
-    // Fields
-    private int employeeId;
-    private string firstName;
+	```csharp
+	public class Employee {
+	    // Fields
+	    private int employeeId;
+	    private string firstName;
+	
+	    // Properties
+	    public int EmployeeId { get; set; }
+	    public string FirstName { get; set; }
+	
+	    // Constructor
+	    public Employee(int id, string name) {
+	        EmployeeId = id;
+	        FirstName = name;
+	    }
+	
+	    // Methods
+	    public void DisplayEmployeeDetails() {
+	        Console.WriteLine($"ID: {EmployeeId}, Name: {FirstName}");
+	    }
+	}
+	```
 
-    // Properties
-    public int EmployeeId { get; set; }
-    public string FirstName { get; set; }
+- **File Organization:** Place each class in its own file and name the file after the class. This makes it easier to locate and manage classes.
 
-    // Constructor
-    public Employee(int id, string name) {
-        EmployeeId = id;
-        FirstName = name;
-    }
-
-    // Methods
-    public void DisplayEmployeeDetails() {
-        Console.WriteLine($"ID: {EmployeeId}, Name: {FirstName}");
-    }
-}
-```
-
-**File Organization:**
-Place each class in its own file and name the file after the class. This makes it easier to locate and manage classes.
-
-```csharp
-// File: Employee.cs
-public class Employee {
-    // Class logic
-}
-
-// File: Department.cs
-public class Department {
-    // Class logic
-}
-```
-
----
+	```csharp
+	// File: Employee.cs
+	public class Employee {
+	    // Class logic
+	}
+	
+	// File: Department.cs
+	public class Department {
+	    // Class logic
+	}
+	```
 
 ## Naming Conventions
 
-Naming conventions are the foundation of readable and maintainable code. Consistent naming makes it easier for everyone on the team to understand and navigate the codebase. In C#, we use PascalCase and camelCase naming conventions to distinguish between different types of identifiers. Follow these principles to ensure consistency.
+Consistent naming makes it easier for everyone on the team to understand and navigate the codebase. In C#, we use PascalCase and camelCase naming conventions to distinguish between different types of identifiers. Follow these principles to ensure consistency.
 
-- **Clarity and Descriptiveness**: Choose names that clearly describe the purpose and use of the variable, method, or class. Avoid abbreviations and single-letter names, except for loop counters.
-- **Pascal Case and Camel Case**: Use PascalCase for class names, method names, and properties. Use camelCase for variables and parameters.
+- Choose names that clearly describe the purpose and use of the variable, method, or class.
+- Avoid abbreviations and single-letter names, except for loop counters.
+- Use PascalCase for class names, method names, and properties.
+- Use camelCase for variables and parameters.
 
 ### Classes and Methods
 
@@ -118,35 +105,12 @@ Class and method names should convey their responsibilities and behaviors.
 - **Classes**: Use nouns or noun phrases. For example, `Customer`, `OrderProcessor`, `InvoiceService`.
 - **Methods**: Use verbs or verb phrases. For example, `CalculateTotal`, `ProcessOrder`, `GenerateInvoice`.
 
-```csharp
-public class InvoiceService
-{
-    public void GenerateInvoice(Customer customer)
-    {
-        // Implementation
-    }
-}
-```
-
 ### Variables and Constants
 
 Variables and constants should be named based on their purpose and scope.
 
 - **Variables**: Use camelCase for local variables and parameters. Ensure the name is descriptive and contextually meaningful.
 - **Constants**: Use PascalCase for constants and prefix them with a descriptive term. For example, `MaxRetryCount`, `DefaultTimeout`.
-
-```csharp
-public class RetryPolicy
-{
-    private const int MaxRetryCount = 5;
-    private int currentRetryCount;
-
-    public bool ShouldRetry()
-    {
-        return currentRetryCount < MaxRetryCount;
-    }
-}
-```
 
 ### Avoiding Ambiguity
 
@@ -159,8 +123,6 @@ While names should be descriptive, they shouldn't be excessively long. Strive fo
 ### Prefixes and Suffixes
 
 Using prefixes and suffixes can add context to names, especially for distinguishing between different types of entities. For example, `is` or `has` for boolean variables (`isAvailable`, `hasPermission`), `min` or `max` for range values (`minLength`, `maxHeight`), and `list` or `array` for collections (`customerList`, `orderArray`).
-
----
 
 ## Case Styles
 
@@ -310,7 +272,7 @@ UPPER_CASE_SNAKE_CASE is a variant of snake_case where all letters are uppercase
 
 This style has been used since the early days of C programming in the 1970s, where it was essential to distinguish constants and macros from variables. It remains widely used in many programming languages for its clarity and convention.
 
-Common Uses:
+**Common Uses:**
 
 - **Constants:** `MAX_RETRY_COUNT`, `DEFAULT_TIMEOUT`
 - **Macro Definitions:** `#define MAX_BUFFER_SIZE 1024`
