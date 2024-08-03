@@ -2,11 +2,7 @@
 
 Git conventional commits are a standardized way of writing commit messages that make them more readable and meaningful. This convention improves collaboration and communication within a team by providing a clear structure and format for commit messages. It also aids in automating processes like generating changelogs and determining the impact of changes.
 
-## Key Principles
-
-The key principles of git conventional commits include the use of a standardized format, the inclusion of relevant information, and consistency in writing commit messages. By adhering to these principles, teams can ensure that commit messages are informative and useful.
-
-### Components of a Conventional Commit
+## Components of a Conventional Commit
 
 A conventional commit message consists of several components:
 
@@ -82,12 +78,14 @@ This practical guide will walk through the steps to practice all components of c
 ### Step 1: Initialize a Git Repository
 
 1. **Create a New Directory for the Project**:
+
    ```sh
    mkdir my-conventional-commits-project
    cd my-conventional-commits-project
    ```
 
 2. **Initialize a Git Repository**:
+
    ```sh
    git init
    ```
@@ -95,16 +93,19 @@ This practical guide will walk through the steps to practice all components of c
 ### Step 2: Create Initial Files
 
 1. **Create a `README.md` File**:
+
    ```sh
-   echo "# My Conventional Commits Project" > README.md
+   echo "# My Conventional Commits Practical" > README.md
    ```
 
 2. **Create an Initial JavaScript File**:
+
    ```sh
    echo "console.log('Hello, world!');" > index.js
    ```
 
 3. **Stage and Commit the Initial Files**:
+
    ```sh
    git add README.md index.js
    git commit -m "docs: add initial README and index.js"
@@ -113,6 +114,7 @@ This practical guide will walk through the steps to practice all components of c
 ### Step 3: Make Conventional Commits
 
 1. **Add a New Feature**:
+
    ```sh
    echo "function greet() { console.log('Hello, user!'); }" >> index.js
    git add index.js
@@ -121,6 +123,7 @@ This practical guide will walk through the steps to practice all components of c
 
 2. **Fix a Bug**:
    Modify the `greet` function to fix a typo:
+
    ```sh
    sed -i '' 's/Hello, user!/Hello, world!/' index.js
    git add index.js
@@ -128,6 +131,7 @@ This practical guide will walk through the steps to practice all components of c
    ```
 
 3. **Update Documentation**:
+
    ```sh
    echo "## Usage\n\nRun \`node index.js\` to see the output." >> README.md
    git add README.md
@@ -136,6 +140,7 @@ This practical guide will walk through the steps to practice all components of c
 
 4. **Refactor Code**:
    Refactor the `greet` function to improve readability:
+
    ```sh
    echo "function greetUser() { console.log('Hello, world!'); }" > index.js
    git add index.js
@@ -144,6 +149,7 @@ This practical guide will walk through the steps to practice all components of c
 
 5. **Style Changes**:
    Format the `index.js` file:
+
    ```sh
    echo "function greetUser() { console.log('Hello, world!'); }" > index.js
    git add index.js
@@ -152,6 +158,7 @@ This practical guide will walk through the steps to practice all components of c
 
 6. **Add Tests**:
    Create a test file:
+
    ```sh
    echo "console.log('Running tests...');" > test.js
    git add test.js
@@ -160,6 +167,7 @@ This practical guide will walk through the steps to practice all components of c
 
 7. **Chore Task**:
    Update the `.gitignore` file:
+
    ```sh
    echo "node_modules/" > .gitignore
    git add .gitignore
@@ -168,6 +176,7 @@ This practical guide will walk through the steps to practice all components of c
 
 8. **Breaking Change**:
    Modify the `greetUser` function:
+
    ```sh
    echo "function greetUser(name) { console.log(\`Hello, \${name}!\`); }" > index.js
    git add index.js
@@ -177,25 +186,30 @@ This practical guide will walk through the steps to practice all components of c
 ### Step 4: Generate Changelog
 
 1. **Install Standard Version**:
+
    ```sh
    npm install -g standard-version
    ```
 
 2. **Generate the Changelog**:
+
    ```sh
    standard-version
    ```
+
    This command will create or update the `CHANGELOG.md` file with the categorized changes based on the commit messages.
 
 ### Step 5: Automate Release Management
 
 1. **Install Semantic Release**:
+
    ```sh
    npm install -g semantic-release
    ```
 
 2. **Configure Semantic Release**:
    Create a `.releaserc` file in the project root with the necessary plugins:
+
    ```json
    {
      "branches": ["main"],
@@ -210,13 +224,12 @@ This practical guide will walk through the steps to practice all components of c
    ```
 
 3. **Run Semantic Release**:
+
    ```sh
    npx semantic-release
    ```
 
-## Hands-On Practice: Team Work
-
-### Practical Examples for All Commit Types
+## Hands-On Practice: All Commit Types
 
 1. **Feature Addition**:
 

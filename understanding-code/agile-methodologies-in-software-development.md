@@ -83,6 +83,24 @@ Azure DevOps provides several tools to support agile practices:
 - [Scrum Guide](https://scrumguides.org/scrum-guide.html)
 - [Kanban Guide](https://kanban.university/)
 - [Azure DevOps Agile Tools](https://docs.microsoft.com/en-us/azure/devops/boards/get-started/what-is-azure-boards?view=azure-devops)
-- [Kaizen in Agile](https://www.scaledagileframework.com/kaizen/)
 
 Agile methodologies, such as Scrum and Kanban, provide structured yet flexible frameworks for software development teams to deliver high-quality products incrementally. By embracing the Agile Manifesto, key principles, roles, and tools, and leveraging platforms like Azure DevOps, teams can enhance collaboration, improve efficiency, and continuously deliver value to stakeholders.
+
+---
+
+>
+> [Agile Manifesto](https://agilemanifesto.org/)
+> 
+> We are uncovering better ways of developing
+> software by doing it and helping others do it.
+> Through this work we have come to value:
+>
+> - **Individuals and interactions** over processes and tools
+> - **Working software** over comprehensive documentation
+> - **Customer collaboration** over contract negotiation
+> - **Responding to change** over following a plan
+>
+> That is, while there is value in the items on
+> the right, we value the items on the left more.
+>
+>
