@@ -1,17 +1,31 @@
 # Agile Methodologies in Software Development
 
+>
+>
+> We are uncovering better ways of developing software by doing it and helping others do it.
+> Through this work we have come to value:
+>
+> - **Individuals and interactions** over processes and tools
+> - **Working software** over comprehensive documentation
+> - **Customer collaboration** over contract negotiation
+> - **Responding to change** over following a plan
+>
+> That is, while there is value in the items on
+> the right, we value the items on the left more.
+>
+> Reference - [Agile Manifesto](https://agilemanifesto.org/)
+>
+
 ## Agile Manifesto
 
-The Agile Manifesto, created in 2001 by a group of software developers, outlines the core values and principles of agile software development. It emphasizes collaboration, flexibility, and delivering working software frequently. The four core values are:
+The Agile Manifesto, created in 2001 by a group of software developers, outlines the core values and principles of agile software development. It emphasizes collaboration, flexibility, and delivering working software frequently. The **4 core values** are:
 
 - **Individuals and Interactions over Processes and Tools**: Emphasizes the importance of collaboration and communication among team members.
 - **Working Software over Comprehensive Documentation**: Focuses on delivering functional software that meets user needs.
 - **Customer Collaboration over Contract Negotiation**: Encourages continuous customer involvement and feedback throughout the development process.
 - **Responding to Change over Following a Plan**: Prioritizes adaptability and responsiveness to changing requirements.
 
-## Key Principles of Agile
-
-Agile methodologies are guided by 12 key principles, which include:
+Agile methodologies are guided by **12 key principles**, which include:
 
 - **Customer Satisfaction**: Delivering valuable software early and continuously.
 - **Welcome Changing Requirements**: Agile processes harness change for the customer's competitive advantage.
@@ -26,6 +40,25 @@ Agile methodologies are guided by 12 key principles, which include:
 - **Self-Organizing Teams**: The best architectures, requirements, and designs emerge from self-organizing teams.
 - **Reflect and Adjust**: Regularly reflect on how to become more effective and adjust accordingly.
 
+>
+> We follow these principles:
+>
+> 1. Our highest priority is to satisfy the customer through early and continuous delivery of valuable software.
+> 2. Welcome changing requirements, even late in development. Agile processes harness change for the customer's competitive advantage.
+> 3. Deliver working software frequently, from a couple of weeks to a couple of months, with a preference to the shorter timescale.
+> 4. Business people and developers must work together daily throughout the project.
+> 5. Build projects around motivated individuals. Give them the environment and support they need, and trust them to get the job done.
+> 6. The most efficient and effective method of conveying information to and within a development team is face-to-face conversation.
+> 7. Working software is the primary measure of progress.
+> 8. Agile processes promote sustainable development. The sponsors, developers, and users should be able to maintain a constant pace indefinitely.
+> 9. Continuous attention to technical excellence and good design enhances agility.
+> 10. Simplicity--the art of maximizing the amount of work not done--is essential.
+> 11. The best architectures, requirements, and designs emerge from self-organizing teams.
+> 12. At regular intervals, the team reflects on how to become more effective, then tunes and adjusts its behavior accordingly.
+>
+> Reference - [Agile Manifesto - Principles](https://agilemanifesto.org/principles.html)
+>
+
 ## Agile Methodologies
 
 ### Scrum
@@ -39,6 +72,8 @@ Scrum is an iterative and incremental framework for managing complex projects. I
 - **Sprint Review**: 2 hours at the end of the sprint
 - **Sprint Retrospective**: 1.5 hours at the end of the sprint
 
+Wiki: [Scrum Methodology in Software Development](./agile-methodologies-scrum-in-software-development.md)
+
 ### Kanban
 
 Kanban focuses on visualizing work, limiting work in progress (WIP), and managing flow. It uses a Kanban board divided into columns representing stages of the process. Work items move across the board, and WIP limits ensure a steady flow.
@@ -48,6 +83,8 @@ Kanban focuses on visualizing work, limiting work in progress (WIP), and managin
 - **In Progress**: Maximum of 5 tasks
 - **Code Review**: Maximum of 3 tasks
 - **Testing**: Maximum of 2 tasks
+
+Wiki: [Kanban Methodology in Software Development](./agile-methodologies-kanban-in-software-development.md)
 
 ## Continuous Improvement (Kaizen)
 
@@ -84,23 +121,4 @@ Azure DevOps provides several tools to support agile practices:
 - [Kanban Guide](https://kanban.university/)
 - [Azure DevOps Agile Tools](https://docs.microsoft.com/en-us/azure/devops/boards/get-started/what-is-azure-boards?view=azure-devops)
 
-Agile methodologies, such as Scrum and Kanban, provide structured yet flexible frameworks for software development teams to deliver high-quality products incrementally. By embracing the Agile Manifesto, key principles, roles, and tools, and leveraging platforms like Azure DevOps, teams can enhance collaboration, improve efficiency, and continuously deliver value to stakeholders.
-
 ---
-
->
-> [Agile Manifesto](https://agilemanifesto.org/)
-> 
-> We are uncovering better ways of developing
-> software by doing it and helping others do it.
-> Through this work we have come to value:
->
-> - **Individuals and interactions** over processes and tools
-> - **Working software** over comprehensive documentation
-> - **Customer collaboration** over contract negotiation
-> - **Responding to change** over following a plan
->
-> That is, while there is value in the items on
-> the right, we value the items on the left more.
->
->

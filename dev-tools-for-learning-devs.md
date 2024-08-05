@@ -40,7 +40,7 @@ To install Vagrant, follow these steps:
 
 ### Creating Your First Vagrant Environment
 
-1. **Initialize a Vagrant Project**: Open your terminal, create a new directory for your project, and run `vagrant init` to initialize a Vagrant project.
+1. **Initialize a Vagrant Project**: Open your terminal, create a new directory for your project, and run `vagrant init bento/ubuntu-20.04` to initialize a Vagrant project.
 2. **Launch the VM**: Run `vagrant up` to start the VM.
 3. **SSH into the VM**: Use `vagrant ssh` to log into the VM.
 

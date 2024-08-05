@@ -35,6 +35,6 @@ For more detailed information on using Azure Repos, refer to the [Azure Repos Do
 
 ### Related Wiki
 
-- [Next: Wiki 3: Azure Pipelines](3-wiki-azure-pipelines.md)
+- [Next: Wiki 3: Azure Pipelines](./3-wiki-azure-pipelines.md)
 
 This wiki provides a comprehensive overview of Azure Repos, highlighting its history, key features, and practical usage. Use this guide to effectively manage your source code and enhance your team's productivity.

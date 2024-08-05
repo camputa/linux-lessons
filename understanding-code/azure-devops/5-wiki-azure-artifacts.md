@@ -31,6 +31,6 @@ For more detailed information on using Azure Artifacts, refer to the [Azure Arti
 
 ## Related Wiki
 
-- [Next: Wiki 6: Azure DevOps Extensions](#)
+- [Next: Sample Azure DevOps Work Items - Government Portal](./hand-on-sample-user-stories-tasks-template-azure-devops-practice.md)
 
 This wiki provides a comprehensive overview of Azure Artifacts, highlighting its history, key features, and practical usage. Use this guide to manage your project dependencies effectively and streamline your development workflow.

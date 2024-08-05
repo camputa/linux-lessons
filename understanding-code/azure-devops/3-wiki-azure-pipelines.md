@@ -31,7 +31,7 @@ For more detailed information on using Azure Pipelines, refer to the [Azure Pipe
 
 ## Related Wiki
 
-- [Next: Wiki 4: Azure Test Plans](4-wiki-azure-test-plans.md)
+- [Next: Wiki 4: Azure Test Plans](./4-wiki-azure-test-plans.md)
 
 This wiki provides a comprehensive overview of Azure Pipelines, highlighting its history, key features, and practical usage. Use this guide to automate your build, test, and deployment processes and enhance
 

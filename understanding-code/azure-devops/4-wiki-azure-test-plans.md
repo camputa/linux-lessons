@@ -31,6 +31,6 @@ For more detailed information on using Azure Test Plans, refer to the [Azure Tes
 
 ## Related Wiki
 
-- [Next: Wiki 5: Azure Artifacts](5-wiki-azure-artifacts.md)
+- [Next: Wiki 5: Azure Artifacts](./5-wiki-azure-artifacts.md)
 
 This wiki provides a comprehensive overview of Azure Test Plans, highlighting its history, key features, and practical usage. Use this guide to manage your testing processes effectively and ensure high-quality software releases.

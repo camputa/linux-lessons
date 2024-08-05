@@ -39,6 +39,6 @@ For more detailed information on using Azure Boards, refer to the [Azure Boards 
 
 ## Related Wiki
 
-- [Next: Wiki 2: Azure Repos](2-wiki-azure-repos.md)
+- [Next: Wiki 2: Azure Repos](./2-wiki-azure-repos.md)
 
 This wiki provides a comprehensive overview of Azure Boards, highlighting its history, key features, and practical usage. Use this guide to effectively manage your agile projects and enhance your team's productivity.
